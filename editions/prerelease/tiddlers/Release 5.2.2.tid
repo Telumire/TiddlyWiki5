@@ -1,0 +1,58 @@
+caption: 5.2.2
+created: 20211208115905247
+modified: 20211208115905247
+tags: ReleaseNotes
+title: Release 5.2.2
+type: text/vnd.tiddlywiki
+
+\define contributor(username)
+<a href="https://github.com/$username$" style="text-decoration:none;font-size:24px;" class="tc-tiddlylink-external" target="_blank" rel="noopener noreferrer"><img src="https://github.com/$username$.png?size=32" width="32" height="32"/> @<$text text=<<__username__>>/></a>
+\end
+
+//[[See GitHub for detailed change history of this release|https://github.com/Jermolene/TiddlyWiki5/compare/v5.2.1...master]]//
+
+! Highlights
+
+* 
+
+! Bug Fixes
+
+* <<.link-badge-fixed "https://github.com/Jermolene/TiddlyWiki5/commit/60187dc59e6546d9ca8e6a35418f782a9627cda0">> importing/upgrading encrypted single file wikis
+
+! Usability Improvements
+
+* <<.link-badge-fixed "https://github.com/Jermolene/TiddlyWiki5/commit/853a899c77766e47eade1dfa5822640ef9915637">> wrapping and wikification of field names in field viewer
+* <<.link-badge-fixed "https://github.com/Jermolene/TiddlyWiki5/commit/0186c6490fbd1d8fd4de7c3fa99ccf4d129fbd80">> missing whitespace between description and MIME type in edit template dropdown for the ''type'' field
+* <<.link-badge-fixed "https://github.com/Jermolene/TiddlyWiki5/commit/c7e8c87f85b54f60302ff8e396a7569d996e3f67">> incorrect usage of code view for certain system tiddlers
+
+! Widget Improvements
+
+* 
+
+! Filter improvements
+
+* 
+
+! Hackability Improvements
+
+* <<.link-badge-added "https://github.com/Jermolene/TiddlyWiki5/commit/54cfda76ee353190f1cf0210b9071894fb1a5690">> support for ''code-body'' field set to ''yes'' to trigger display of a tiddler in the code view
+* <<.link-badge-added "https://github.com/Jermolene/TiddlyWiki5/commit/66ae1d6930796a9eb062fdb64a755adab8f39294">> classes to the ImageWidget to indicate whether it is loading, loaded or has encountered an error
+* <<.link-badge-added "https://github.com/Jermolene/TiddlyWiki5/pull/6381">> sourceURL tags to $:/boot/boot.js and $:/boot/bootprefix.js, enabling them to be accessed in the browser debugger more easily
+
+! Developer Improvements
+
+* 
+
+! Node.js Improvements
+
+* 
+
+! Translation improvements
+
+* Polish
+
+! Acknowledgements
+
+[[@Jermolene|https://github.com/Jermolene]] would like to thank the contributors to this release who have generously given their time to help improve TiddlyWiki:
+
+* <<contributor Jermolene>>
